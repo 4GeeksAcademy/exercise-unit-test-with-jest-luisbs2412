@@ -1,8 +1,8 @@
 // Declaramos una función con el nombre exacto "formEuroToDollar"
 const fromEuroToDollar = function(valueInEuro) {
-    // Convertimos el valor a dólares
+    // Convertimos el valor a Euros
     let valueInDollar = valueInEuro * 1.07;
-    // Retornamos el valor en dólares
+    // Retornamos el valor en Euros
     return valueInDollar;
 }
 
@@ -25,7 +25,7 @@ const sum = (a,b) => {
 }
 
 console.log(sum(7,3))
-module.exports = { sum, fromEuroToDollar };
+module.exports = { sum, fromEuroToDollar, fromYenToPound };
 
 
 
